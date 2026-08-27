@@ -1,0 +1,12 @@
+image: python:3.12
+
+pipelines:
+  custom:
+    export-confluence:
+      - step:
+          name: Export Confluence to Markdown
+          script:
+            - pip install requests beautifulsoup4 markdownify
+            - python scripts/export_confluence.py
+          artifacts:
+            - exported-confluence/**
