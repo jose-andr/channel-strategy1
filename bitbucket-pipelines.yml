@@ -4,9 +4,35 @@ pipelines:
   custom:
     export-confluence:
       - step:
-          name: Export Confluence to Markdown
+          name: Sync Confluence to Bitbucket
           script:
+            # Install exporter dependencies.
             - pip install requests beautifulsoup4 markdownify
+
+            # Remove the previous generated snapshot so deleted or moved
+            # Confluence pages do not remain as stale repository content.
+            - rm -rf "$CONFLUENCE_OUTPUT_DIR"
+
+            # Export the current Confluence hierarchy.
             - python scripts/export_confluence.py
+
+            # Configure the pipeline Git identity.
+            - git config user.name "Confluence Sync"
+            - git config user.email "confluence-sync@bitbucket.local"
+
+            # Stage generated content.
+            - git add "$CONFLUENCE_OUTPUT_DIR"
+
+            # Stop cleanly if nothing has changed.
+            - |
+              if git diff --cached --quiet; then
+                echo "No Confluence changes detected."
+                exit 0
+              fi
+
+            # Commit and push back to the branch that ran the pipeline.
+            - git commit -m "Sync Confluence content"
+            - git push origin HEAD:"$BITBUCKET_BRANCH"
+
           artifacts:
             - exported-confluence/**
