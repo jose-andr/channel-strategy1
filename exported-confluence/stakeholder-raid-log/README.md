@@ -5,7 +5,7 @@ confluence_page_id: "1339883524"
 confluence_space_id: "68452354"
 confluence_status: "current"
 confluence_url: "https://jira-cityofmelbourne.atlassian.net/spaces/cex/pages/1339883524/3.+Stakeholder+RAID+Log"
-confluence_version: "2"
+confluence_version: "3"
 repository_path: "stakeholder-raid-log/README.md"
 generated: true
 ---
@@ -19,215 +19,199 @@ generated: true
 **Page status:** Draft   
 **Project lead:** Jose Andrade   
 **Related parent page:** Channel Strategy Y2   
-**Last updated:** [Add date]   
+**Last updated:** 9 September 2026   
 **Page owner:** Jose Andrade
 
 ---
 
 ## Purpose
 
-This Stakeholder RAID Log tracks the stakeholder-related **Risks, Assumptions, Issues and Dependencies** for Channel Strategy Y2.
+This page tracks stakeholder-related Risks, Assumptions, Issues and Dependencies for Channel Strategy Y2.
 
-Channel Strategy Y2 depends on strong alignment across CX, Digital, Salesforce / CRM, Knowledge, Data Governance, Privacy, Records, Information Security, Communications, Contact Centre and selected service owners.
+The project depends on alignment across CX, UX / Design, Digital, Contact Centre, CRM, Knowledge, Information Architecture, Communications, Data and selected service owners.
 
-This log helps the project team keep stakeholder needs, concerns, actions and decisions visible as the work moves from discovery into delivery.
-
----
-
-## How to use this page
-
-Use this page to track stakeholder items that may affect scope, delivery, adoption or decision-making.
-
-| RAID type | Use it when |
-| --- | --- |
-| **Risk** | Something may happen that could affect stakeholder alignment, delivery or adoption |
-| **Assumption** | We are proceeding based on something believed to be true but not yet confirmed |
-| **Issue** | Something is already happening and needs action |
-| **Dependency** | Progress relies on another person, team, decision, system, forum or piece of work |
+The log is intended to keep the stakeholder conditions that could affect scope, delivery, adoption or decision-making visible.
 
 ---
 
-## Stakeholder engagement principles
+## Engagement principles
 
-| Principle | What it means |
+| Principle | Meaning |
 | --- | --- |
-| Engage early, not after the design is finished | Bring stakeholders into framing, trade-offs and testing |
-| Make decisions visible | Use the decision log so people can see what has been agreed and why |
-| Respect operational constraints | Service owners and frontline teams need practical patterns, not abstract frameworks |
-| Avoid channel silos | Digital, CRM, Contact Centre, Knowledge and service teams should work from shared service logic |
-| Protect non-digital access | Digital improvement must maintain clear assisted pathways for customers who need support |
-| Use evidence to reduce opinion debates | Prioritise demand, repeat contact, customer effort, service risk and feasibility evidence |
-| Keep artefacts lightweight | Make tools easy for service owners and delivery teams to adopt |
+| Engage around decisions | Bring people in when their expertise or authority affects a decision |
+| Connect related work early | Avoid separate digital, channel, knowledge or CRM solutions drifting apart |
+| Use practical cases | Concrete service examples create better alignment than abstract frameworks |
+| Respect operational reality | Service and frontline constraints need to shape design |
+| Make decisions visible | Record important decisions and rationale |
+| Keep engagement proportionate | Avoid creating meetings that do not improve a decision or outcome |
+| Protect assisted access | Digital improvements should maintain appropriate human support |
+| Socialise the direction | Make Channel Strategy work visible enough that related initiatives understand and can align to it |
 
 ---
 
 ## Stakeholder map
 
-| Stakeholder group | Role in Channel Strategy Y2 | Likely interest | Engagement need | Current status |
-| --- | --- | --- | --- | --- |
-| CX leadership | Sponsor, prioritisation and escalation support | Strategic alignment, value, delivery confidence | Regular updates and clear decision points | [Green / Amber / Red] |
-| Project lead | Lead coordination, framing and delivery | Scope, momentum, stakeholder alignment | Owns plan, logs and working rhythm | Green |
-| CX / service design | Define customer logic, journeys, response modes and design standards | Quality of customer experience and reusability | Co-design and regular working sessions | [Add status] |
-| Digital CX / MVGA | Align digital pathways, website experience and front-door logic | Website, digital containment, usability, accessibility | Early involvement in IA and routing decisions | [Add status] |
-| Salesforce / CRM | Align case, status, data capture and handover requirements | Feasibility, CRM changes, status logic, data quality | Input into minimum viable data and status patterns | [Add status] |
-| Knowledge | Align content, taxonomy, source-of-truth and governance | Consistent answers across channels | Co-design knowledge standards and ownership model | [Add status] |
-| Contact Centre / Customer Support | Provide assisted channel insight, failure demand evidence and handover needs | Better handover, reduced repeat contact, clearer staff guidance | Input into pain points, response modes and scripts | [Add status] |
-| Service owners for MVP journeys | Test framework in real services | Practicality, workload, service outcomes, customer impact | Targeted engagement, clear asks and support | [Add status] |
-| Data Governance / Data Quality | Define data standards, minimum fields and confidence levels | Data quality, definitions, reporting reliability | Review minimum connected-context data needs | [Add status] |
-| VOCA / Analytics | Support measurement and journey performance views | Baselines, reporting, evidence and outcomes | Define measures and evaluation approach | [Add status] |
-| Privacy | Advise on personal information collection, use and disclosure | APP compliance, consent and proportionality | Early review of data and handover assumptions | [Add status] |
-| Records | Advise on recordkeeping obligations and auditability | Public Records Act alignment, retention and traceability | Review status, communication and case record implications | [Add status] |
-| Information Security | Advise on information handling, access and security risks | Security controls and access management | Review connected-context and system implications | [Add status] |
-| Technology / Integration | Advise on platform and integration feasibility | Technical feasibility, sequencing and constraints | Input into delivery options and dependencies | [Add status] |
-| Communications | Support customer-facing language and proactive messages | Clarity, tone, reputation and public trust | Review status patterns and external messaging | [Add status] |
-| ELT / senior leadership | Endorse strategic direction, scale pathway and future investment | Confidence, risk, alignment and measurable benefits | Updates at key decision points | [Add status] |
-| Governance forums | Review data, digital, privacy, technology or portfolio implications | Compliance, investment and enterprise alignment | Escalate only when relevant | [Add status] |
+| Stakeholder group | Role in Channel Strategy Y2 | Current engagement need | Status |
+| --- | --- | --- | --- |
+| CX leadership | Strategic direction, prioritisation and escalation | Regular progress and clear value drops | Active |
+| Project lead | Coordination, framing, decision management and delivery | Maintain plan, decisions and stakeholder alignment | Active |
+| CX / service design | Customer framing, journey logic and service patterns | Core working-group participation | Active |
+| UX / Design — Mindy and Rachele | Digital interaction, UX patterns and design-system connection | Join the Channel Strategy working group and contribute to proof-of-concept design | Joining |
+| Digital CX / MVGA | Website pathways, digital experience and feasibility | Align website and front-door work | Active / as needed |
+| Communications / StratCom | Website-facing communication and broader customer-content alignment | Connect website, service-account and customer-experience direction where relevant | Strengthen |
+| Contact Centre / Customer Support | Assisted-channel insight, failure demand and handover needs | Validate support modes and routing | Active / as needed |
+| CRM / Salesforce | Case, status, customer context and handover feasibility | Input when connected-context or status patterns require it | As needed |
+| Knowledge | Source-of-truth, knowledge structure and governance | Connect KMS and Intelligent Front Door learning | Active / as needed |
+| Information Architecture | Customer intent, service labels and channel offer alignment | Provide structure for reusable service logic | Active |
+| Service owners | Validate service rules and test practical patterns | Targeted participation based on selected use cases | Targeted |
+| Data / Analytics | Evidence, baseline and journey measurement | Define sufficient evidence for tests | As needed |
+| Privacy / Records / Information Security | Review information handling where required | Engage at relevant design decisions | Targeted |
+| Senior leadership | Organisational visibility, strategic alignment and future scale | Playback at meaningful value drops | Strengthen |
 
 ---
 
-## Stakeholder engagement plan
+## Engagement plan
 
-| Stakeholder group | Engagement method | Cadence / timing | Owner | Purpose |
+| Stakeholder | Engagement | Timing | Owner | Purpose |
 | --- | --- | --- | --- | --- |
-| CX leadership / sponsor | Sponsor update | Fortnightly | Jose Andrade | Confirm direction, unblock issues and prepare decisions |
-| Working group | Working session | Weekly during scoping and develop | Jose Andrade | Coordinate workstreams, actions, risks and decisions |
-| Digital CX / MVGA | Design and feasibility session | Fortnightly or as needed | [Add owner] | Align IA, web pathways, accessibility and digital experience |
-| Salesforce / CRM | Design and feasibility session | Fortnightly or as needed | [Add owner] | Align CRM data, status, case and handover requirements |
-| Knowledge | Discovery / co-design session | Fortnightly or as needed | [Add owner] | Align knowledge taxonomy, source-of-truth and governance |
-| Contact Centre / Customer Support | Operational insight session | Monthly or as needed | [Add owner] | Understand failure demand, handover and assisted channel needs |
-| Service owners | Targeted discovery and playback | At journey selection, design and test points | [Add owner] | Validate practicality and secure adoption |
-| Privacy / Records / InfoSec | Compliance review | At key design decisions | [Add owner] | Confirm safe and compliant approach |
-| Data Governance / VOCA | Measurement session | Monthly or by phase | [Add owner] | Define baseline, data quality and journey measures |
-| ELT / senior leadership | Executive playback | Key value drops | Jose Andrade / sponsor | Confirm narrative, trade-offs, scale pathway and decisions |
+| Channel Strategy working group | Working session | Weekly | Jose Andrade | Coordinate discovery, decisions and next actions |
+| Mindy and Rachele | Working-group participation / UX design input | Immediate and ongoing | Jose Andrade | Connect UX and digital-design capability to Channel Strategy |
+| CX leadership | Sponsor / leadership update | At key progress points | Jose Andrade | Maintain strategic alignment and unblock decisions |
+| Digital / website stakeholders | Design and feasibility discussion | As required | Working group | Align website dependencies and interaction patterns |
+| Communications / StratCom | Targeted alignment | As relevant to customer-facing work | Jose Andrade | Connect website and communication directions |
+| Sustainability stakeholders | Proof-of-concept working sessions | During proof of concept | Working group | Test Intelligent Front Door logic through a practical case |
+| Parking / infringement contributors | Problem-framing validation | During refinement | Jose Andrade | Validate problem statement and routing / eligibility insights |
+| Service owners | Targeted discovery and playback | At use-case selection and test points | Working group | Validate practicality |
+| Senior leadership | Playback / value drop | At meaningful milestones | Jose Andrade / sponsor | Make direction, learning and dependencies visible |
 
 ---
 
 ## RAID summary
 
-| ID | Type | Stakeholder / area | Description | Impact | Owner | Status | Next action | Due date |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| S-R001 | Risk | Service owners | Service owners may see the framework as extra work rather than enablement | Low adoption and limited testing | Jose Andrade | Open | Frame asks around selected journeys and practical pain points | [Add date] |
-| S-R002 | Risk | Digital / CRM / Contact Centre | Channel teams may continue optimising separately | Connected interaction outcomes may not be achieved | [Add owner] | Open | Use shared response modes and journey measures across workstreams | [Add date] |
-| S-R003 | Risk | Leadership | Work may be interpreted as a digital or Salesforce project only | Strategic value may be misunderstood | Jose Andrade | Open | Maintain consistent narrative: Connected Interactions Framework plus service IA | [Add date] |
-| S-R004 | Risk | Governance forums | Too many governance touchpoints may slow progress | Delays and reduced delivery momentum | [Add owner] | Open | Use escalation criteria and only involve forums when decisions require it | [Add date] |
-| S-A001 | Assumption | MVP journeys | Selected MVP journeys will be available and service owners will participate | Scope and testing depend on service owner readiness | Jose Andrade | Open | Confirm MVP journey selection criteria and service owner commitment | [Add date] |
-| S-A002 | Assumption | Data | Existing systems can provide enough data for baseline and Q4 evaluation | Measurement approach depends on available data | [Add owner] | Open | Validate minimum viable baseline with VOCA / analytics | [Add date] |
-| S-A003 | Assumption | Technology | Existing platforms can support limited testing without major rebuild | Delivery approach depends on MVP feasibility | [Add owner] | Open | Confirm technical feasibility with Digital, CRM and Technology | [Add date] |
-| S-I001 | Issue | Scope | Related initiatives may use different language for similar concepts | Confusion and duplicated artefacts | Jose Andrade | Open | Create a simple glossary for response modes, IA, routing and status patterns | [Add date] |
-| S-I002 | Issue | Knowledge | Source-of-truth ownership may be unclear across channels | Inconsistent answers for customers and staff | [Add owner] | Open | Align with KMS Discovery and identify interim ownership model | [Add date] |
-| S-D001 | Dependency | Information Architecture Discovery | Channel Strategy Y2 depends on IA discovery findings | Response modes and routing may lack structure | [Add owner] | Open | Confirm IA discovery timeline and outputs | [Add date] |
-| S-D002 | Dependency | Knowledge Management System Discovery | KMS discovery affects knowledge source-of-truth and governance | Framework adoption may be limited if knowledge remains fragmented | [Add owner] | Open | Connect KMS findings to framework design | [Add date] |
-| S-D003 | Dependency | Intelligent Front Door Discovery | Front door discovery informs routing, contact reasons and support modes | Customer routing decisions may lack evidence | [Add owner] | Open | Confirm top service/contact reason analysis | [Add date] |
-| S-D004 | Dependency | Off-Platform Search Discovery | Google and AI search findings inform source-of-truth and findability | Customers may continue entering through unclear or outdated pathways | [Add owner] | Open | Identify high-risk services where search results do not align to source-of-truth | [Add date] |
-| S-D005 | Dependency | Privacy / Records / InfoSec | Connected-context data needs require compliance review | Handover and data capture patterns may be delayed | [Add owner] | Open | Schedule early review of minimum connected-context data | [Add date] |
+| ID | Type | Area | Description | Impact | Owner | Status | Next action |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| S-R001 | Risk | Service owners | Service owners may see the framework as additional work rather than help with an existing problem | Low adoption | Jose Andrade | Open | Use practical service problems and small asks |
+| S-R002 | Risk | Cross-channel teams | Digital, CRM, Contact Centre, Knowledge and other teams may optimise independently | Fragmented customer experience | Working group | Open | Use shared service logic and visible decisions |
+| S-R003 | Risk | Leadership | Channel Strategy may be interpreted as a side project or digital-only activity | Strategic value and alignment are weakened | Jose Andrade | Open | Socialise progress and connected outcomes through value drops |
+| S-R004 | Risk | Scope | Expanded stakeholder involvement could increase meetings and slow delivery | Reduced momentum | Jose Andrade | Open | Engage based on decisions, dependencies and practical use cases |
+| S-A001 | Assumption | Practical testing | A small number of real service contexts can generate enough learning to shape reusable patterns | Framework development depends on useful test cases | Jose Andrade | Open | Test through sustainability and related cases |
+| S-A002 | Assumption | Sustainability | Sustainability provides an appropriate greenfield context for testing Intelligent Front Door principles | Proof of concept may not surface transferable learning | Working group | Testing | Explicitly capture reusable patterns and limitations |
+| S-A003 | Assumption | Technology | Existing digital capability can support a lightweight proof of concept | The interaction may need to be simplified if feasibility is limited | Digital / UX contributors | Open | Confirm feasible interaction options |
+| S-I001 | Issue | Terminology | Related initiatives may use different terms for similar service concepts | Duplicated or inconsistent artefacts | Jose Andrade | Open | Maintain shared language across workstreams |
+| S-I002 | Issue | Organisational visibility | Channel Strategy work has not always been sufficiently visible outside the immediate team | Related work may progress without understanding the shared direction | Jose Andrade | Open | Establish a lightweight recurring playback / value-drop rhythm |
+| S-D001 | Dependency | Information Architecture | Routing and front-door patterns depend on customer-intent and service-information structure | Patterns may remain too generic | IA workstream | Open | Connect IA learning into proof-of-concept work |
+| S-D002 | Dependency | Knowledge Management | Consistent front-door answers depend on knowledge and source-of-truth clarity | Customers may receive inconsistent information | KMS workstream | Open | Connect KMS learning to sustainability and future tests |
+| S-D003 | Dependency | UX / Design | Sustainability interaction design requires UX and wider digital-design input | Proof of concept may not align with the wider experience | Jose Andrade | Active | Bring Mindy and Rachele into the working group |
+| S-D004 | Dependency | Website change | Off-Platform Search testing depends on the new website state being available and stable | Testing now may produce a short-lived baseline | Digital / relevant owner | Waiting | Reconfirm readiness before restarting testing |
+| S-D005 | Dependency | Service rules | Parking / infringement design depends on clear eligibility, routing and operational criteria | Future design could misdirect customers | Jose Andrade / service input | Open | Validate problem framing and rules |
+| S-D006 | Dependency | Leadership socialisation | Broader adoption depends on stakeholders understanding how Off-Platform Search, IA and Intelligent Front Door fit together | Related programs may continue separately | Jose Andrade | Open | Use future playbacks to show the connected model |
+
+---
+
+## Current stakeholder focus
+
+### 1. Expand the working group
+
+Mindy and Rachele are being brought into the Channel Strategy working group to strengthen:
+
+- UX thinking
+- digital interaction design
+- design-system alignment
+- website connection
+- practical proof-of-concept design
+
+Their involvement should help connect Channel Strategy to related customer-facing digital work rather than creating separate patterns.
+
+### 2. Use sustainability as a shared design case
+
+The sustainability proof of concept creates a practical reason for:
+
+- CX
+- UX / Design
+- Digital
+- Knowledge
+- service stakeholders
+
+to work against the same customer problem.
+
+Engagement should focus on what needs to be learned rather than on pre-selecting a technology.
+
+### 3. Increase visibility of the connected story
+
+The project should make clearer that:
+
+- Intelligent Front Door
+- Information Architecture
+- Off-Platform Search
+- Knowledge
+- customer routing
+
+are connected parts of one customer-experience direction.
+
+A lightweight playback or value-drop rhythm should be developed rather than relying on one-off project conversations.
 
 ---
 
 ## Stakeholder risks
 
-| ID | Risk | Stakeholder group | Likelihood | Impact | Rating | Mitigation | Owner | Status |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SR001 | Service owners may not have capacity to participate in MVP journey testing | Service owners | Medium | High | Amber | Use small, time-boxed asks; align to existing service pain points; provide reusable outputs | Jose Andrade | Open |
-| SR002 | Digital and CRM teams may have different priorities or delivery timelines | Digital / CRM | Medium | High | Amber | Agree minimum viable design inputs and decision points early | [Add owner] | Open |
-| SR003 | Stakeholders may expect a full enterprise channel redesign | Leadership / stakeholders | Medium | Medium | Amber | Clearly state MVP scope and out-of-scope items in all updates | Jose Andrade | Open |
-| SR004 | Compliance stakeholders may be engaged too late | Privacy / Records / InfoSec | Low | High | Amber | Build early review points into design decisions for data, status and handover | [Add owner] | Open |
-| SR005 | Staff may see journey measurement as performance monitoring rather than service improvement | Contact Centre / service teams | Medium | Medium | Amber | Position measures around customer effort, service clarity and system improvement | [Add owner] | Open |
-| SR006 | Customers with accessibility, language or assisted support needs may be underrepresented | Customers / advocacy groups | Medium | High | Amber | Review patterns against WCAG, language access and assisted support requirements | [Add owner] | Open |
+| ID | Risk | Likelihood | Impact | Mitigation | Owner | Status |
+| --- | --- | --- | --- | --- | --- | --- |
+| SR001 | Service owners have limited capacity for testing | Medium | High | Use time-boxed practical asks tied to real service problems | Jose Andrade | Open |
+| SR002 | Digital initiatives move at different speeds from Channel Strategy | Medium | High | Identify the minimum decisions and dependencies required for alignment | Working group | Open |
+| SR003 | Stakeholders expect a full enterprise redesign | Medium | Medium | Continue to communicate the MVP and proof-of-concept approach | Jose Andrade | Open |
+| SR004 | The sustainability prototype is interpreted as the final Intelligent Front Door solution | Medium | Medium | Label it clearly as a proof of concept and capture learning / limitations | Jose Andrade | Open |
+| SR005 | Organisational awareness is too low for later adoption | Medium | High | Create regular progress visibility at meaningful value drops | Jose Andrade | Open |
+| SR006 | Assisted-support needs are underrepresented in digital concepts | Medium | High | Include support-mode and escalation questions in testing | Working group | Open |
 
 ---
 
 ## Stakeholder assumptions
 
-| ID | Assumption | Why we are assuming this | Validation needed | Owner | Status |
-| --- | --- | --- | --- | --- | --- |
-| SA001 | Y2 can proceed using selected MVP journeys rather than all services | This keeps scope manageable and testable | Confirm selection criteria and service owner participation | Jose Andrade | Open |
-| SA002 | A minimum viable response mode set can support multiple services | Shared service behaviour should be reusable | Test response modes against 3–5 high-demand journeys | [Add owner] | Open |
-| SA003 | Existing data sources can support a useful baseline | Baseline does not need to be perfect to guide improvement | Validate available data with VOCA, CRM, web and contact centre reporting | [Add owner] | Open |
-| SA004 | Customers benefit from status updates based on journey language rather than internal workflow labels | Customer-facing language should reduce confusion and follow-up | Test wording with staff and, where possible, customer evidence | [Add owner] | Open |
-| SA005 | Service owners will adopt the framework if it solves real delivery problems | Adoption depends on usefulness and low burden | Validate through selected initiatives and feedback | Jose Andrade | Open |
+| ID | Assumption | Validation needed | Owner | Status |
+| --- | --- | --- | --- | --- |
+| SA001 | Selected practical cases are sufficient for developing reusable Y2 patterns | Test learning across more than one context over time | Jose Andrade | Open |
+| SA002 | Sustainability can provide useful Intelligent Front Door learning | Evaluate reusability after the proof of concept | Working group | Testing |
+| SA003 | UX / Design involvement will improve alignment with wider digital patterns | Review proof-of-concept decisions with the design contributors | Jose Andrade | Open |
+| SA004 | The website change will create a more appropriate Off-Platform Search baseline | Confirm after deployment | Relevant digital owner | Open |
+| SA005 | Leadership visibility will improve cross-team alignment | Test through future playbacks | Jose Andrade | Open |
 
 ---
 
 ## Stakeholder issues
 
-| ID | Issue | Stakeholder group | Impact | Action required | Owner | Status | Due date |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| SI001 | MVP journeys are not yet confirmed | All | Scope and delivery planning remain uncertain | Confirm journey selection criteria and shortlist | Jose Andrade | Open | [Add date] |
-| SI002 | Decision rights across CX, Digital, CRM, Knowledge and service owners may be unclear | Working group | Decisions may stall or be revisited | Confirm decision-making levels and escalation path | Jose Andrade | Open | [Add date] |
-| SI003 | Related discovery streams may produce overlapping artefacts | Workstream leads | Duplication and inconsistent terminology | Align workstream outputs and maintain glossary | [Add owner] | Open | [Add date] |
-| SI004 | Source-of-truth ownership may be unclear for selected services | Knowledge / service owners | Inconsistent customer and staff answers | Identify interim knowledge ownership for MVP journeys | [Add owner] | Open | [Add date] |
-| SI005 | Stakeholder engagement may become too broad | All | Increased meetings and reduced delivery pace | Use targeted engagement by decision or dependency | Jose Andrade | Open | [Add date] |
+| ID | Issue | Impact | Action | Owner | Status |
+| --- | --- | --- | --- | --- | --- |
+| SI001 | Broader MVP journey selection is not yet final | Framework testing remains partially open | Use current proof-of-concept work to improve selection criteria | Jose Andrade | Open |
+| SI002 | Some decision rights remain unclear across related workstreams | Decisions may be revisited | Use the Decision Log and escalate only when required | Jose Andrade | Open |
+| SI003 | Related projects may create overlapping service and UX concepts | Rework and inconsistent terminology | Connect contributors through practical use cases | Working group | Open |
+| SI004 | Source-of-truth ownership varies by service | Inconsistent customer answers | Progress through KMS and service-owner validation | KMS / service owners | Open |
+| SI005 | Channel Strategy activity needs stronger organisational visibility | Related initiatives may not understand the shared direction | Establish a lightweight recurring playback rhythm | Jose Andrade | Open |
 
 ---
 
 ## Stakeholder dependencies
 
-| ID | Dependency | Dependent on | Needed by | Impact if delayed | Owner | Status | Due date |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| SD001 | MVP journey selection | Demand data, service owner readiness, feasibility input | Scope confirmation | Delays Q1 scoping and Q2 framework testing | Jose Andrade | Open | [Add date] |
-| SD002 | Service information architecture findings | Information Architecture Discovery | Response modes, routing and front-door logic | Framework may be too generic or misaligned | [Add owner] | Open | [Add date] |
-| SD003 | KMS discovery findings | Knowledge Management System Discovery | Source-of-truth and knowledge governance approach | Inconsistent answers may continue across channels | [Add owner] | Open | [Add date] |
-| SD004 | Front-door demand and contact reason data | Intelligent Front Door Discovery | Routing and response mode design | Design may not reflect actual customer demand | [Add owner] | Open | [Add date] |
-| SD005 | Search results and source-of-truth evidence | Off-Platform Search Discovery | Findability and off-platform search recommendations | Customers may continue to enter through unclear pathways | [Add owner] | Open | [Add date] |
-| SD006 | CRM status and case data | Salesforce / CRM | Status update and handover design | Status patterns may not be feasible to test | [Add owner] | Open | [Add date] |
-| SD007 | Compliance input | Privacy, Records, InfoSec | Connected-context and data capture decisions | Rework or compliance risk | [Add owner] | Open | [Add date] |
-| SD008 | Measurement baseline | VOCA / analytics, CRM, web and contact centre reporting | Q2 and Q4 evaluation | Unable to demonstrate improvement or learning | [Add owner] | Open | [Add date] |
-
----
-
-## Engagement health check
-
-Use this table during monthly reviews.
-
-| Stakeholder group | Current engagement | Confidence | Concern / watchpoint | Action |
-| --- | --- | --- | --- | --- |
-| CX leadership | [High / Medium / Low] | [Green / Amber / Red] | [Add note] | [Add action] |
-| Digital CX / MVGA | [High / Medium / Low] | [Green / Amber / Red] | [Add note] | [Add action] |
-| Salesforce / CRM | [High / Medium / Low] | [Green / Amber / Red] | [Add note] | [Add action] |
-| Knowledge | [High / Medium / Low] | [Green / Amber / Red] | [Add note] | [Add action] |
-| Contact Centre / Customer Support | [High / Medium / Low] | [Green / Amber / Red] | [Add note] | [Add action] |
-| Service owners | [High / Medium / Low] | [Green / Amber / Red] | [Add note] | [Add action] |
-| Privacy / Records / InfoSec | [High / Medium / Low] | [Green / Amber / Red] | [Add note] | [Add action] |
-| Data Governance / VOCA | [High / Medium / Low] | [Green / Amber / Red] | [Add note] | [Add action] |
-| ELT / senior leadership | [High / Medium / Low] | [Green / Amber / Red] | [Add note] | [Add action] |
-
----
-
-## Escalation triggers
-
-Escalate stakeholder-related items when:
-
-| Trigger | Escalate to |
-| --- | --- |
-| Service owner participation is not confirmed for MVP journeys | Sponsor / CX leadership |
-| Workstream outputs are conflicting or duplicative | Project lead / working group |
-| Digital, CRM or technology feasibility blocks testing | Sponsor and relevant delivery lead |
-| Privacy, records, information security or data governance concerns are unresolved | Relevant governance forum |
-| Stakeholder disagreement affects scope, timing or value drops | Sponsor / CX leadership |
-| A decision has enterprise, funding or operating model implications | ELT / senior leadership |
+| ID | Dependency | Needed for | Impact if delayed | Owner | Status |
+| --- | --- | --- | --- | --- | --- |
+| SD001 | UX / design participation | Sustainability proof of concept | Interaction may not align with broader design patterns | Jose Andrade | Active |
+| SD002 | Information Architecture findings | Routing and customer-intent logic | Front-door patterns may remain generic | IA workstream | Open |
+| SD003 | Knowledge findings | Consistent information and source-of-truth logic | Answers may vary by channel | KMS workstream | Open |
+| SD004 | Sustainability service input | Proof-of-concept validity | Prototype may not reflect real service needs | Working group | Open |
+| SD005 | Parking / infringement service criteria | Problem-statement validation | Design may solve the wrong problem | Jose Andrade | Open |
+| SD006 | Website change | Off-Platform Search execution | Baseline may become immediately obsolete | Relevant digital owner | Waiting |
+| SD007 | Analytics / evidence | Evaluation | Learning may rely too heavily on opinion | Working group | Open |
+| SD008 | Leadership playback opportunities | Organisational alignment | Related work may continue without shared framing | Jose Andrade | Open |
 
 ---
 
 ## Review rhythm
 
-| Cadence | Activity | Owner |
-| --- | --- | --- |
-| Weekly | Review open stakeholder actions, issues and dependencies | Project lead |
-| Fortnightly | Review sponsor-level risks and escalations | Project lead / sponsor |
-| Monthly | Review stakeholder engagement health check | Working group |
-| End of each phase | Close, carry forward or escalate RAID items | Project lead |
-| Q4 | Review stakeholder adoption and scale readiness | Project lead / sponsor |
+Review this page:
 
----
+- during weekly working-group sessions when a stakeholder dependency changes
+- before major proof-of-concept or design decisions
+- before leadership playbacks
+- when a new cross-team dependency appears
+- at the end of each 4D phase
 
-## Notes
-
-This log should stay practical and current.
-
-Items should be closed when:
-
-1. the stakeholder action is complete
-2. the assumption has been validated or replaced
-3. the issue has been resolved or escalated
-4. the dependency has been met or formally accepted as a constraint
-5. the risk has been transferred to the Risk Register or no longer applies
+Only maintain stakeholder items that affect a decision, delivery, risk or adoption outcome.

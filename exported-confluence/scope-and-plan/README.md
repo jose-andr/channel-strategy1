@@ -5,7 +5,7 @@ confluence_page_id: "1339392001"
 confluence_space_id: "68452354"
 confluence_status: "current"
 confluence_url: "https://jira-cityofmelbourne.atlassian.net/spaces/cex/pages/1339392001/1.+Scope+and+Plan"
-confluence_version: "5"
+confluence_version: "6"
 repository_path: "scope-and-plan/README.md"
 generated: true
 ---
@@ -14,8 +14,6 @@ generated: true
 
 # 1. Scope and Plan
 
-# Scope and Plan
-
 ## Channel Strategy Y2
 
 **Page status:** Draft   
@@ -23,64 +21,65 @@ generated: true
 **Related parent page:** Channel Strategy Y2   
 **Phase:** Develop → Deliver   
 **CX pillar / capability:** Our Promise / Vision and Strategy   
-**Last updated:** [Add date]   
+**Last updated:** 9 September 2026   
 **Page owner:** Jose Andrade
 
 ---
 
 ## Purpose
 
-Channel Strategy Y2 establishes the practical Customer Experience enablement layer that helps City of Melbourne move from **fragmented customer channels** to **connected customer interactions**.
+Channel Strategy Y2 establishes the practical Customer Experience enablement layer that helps City of Melbourne move from fragmented customer channels to connected customer interactions.
 
-This work will define and test a minimum viable **Connected Interactions Framework**, supported by service information architecture, so City of Melbourne can better:
+The work will define and test a minimum viable Connected Interactions Framework supported by service information architecture.
+
+The objective is to improve the organisation's ability to:
 
 | Capability | What this enables |
 | --- | --- |
-| Understand customer intent | Customers are guided by what they are trying to do, not internal structures |
-| Apply the right response mode | Customers receive the right level of support based on need, risk and complexity |
-| Route customers to the right pathway | Customers are directed to the most appropriate channel, service or support option |
-| Provide meaningful status updates | Customers receive updates in plain language based on their journey |
-| Capture better data | Staff have enough context to support handover and continuity |
-| Measure experience across journeys | Performance is understood beyond individual channel activity |
+| Understand customer intent | Organise experiences around what customers are trying to achieve |
+| Apply appropriate response modes | Match support to customer need, complexity and service context |
+| Route customers effectively | Direct customers to the right information, service or support pathway |
+| Provide meaningful journey information | Help customers understand what is happening and what comes next |
+| Preserve useful context | Reduce unnecessary repetition when customers move between channels or teams |
+| Use consistent knowledge | Give customers and staff clearer and more reliable information |
+| Measure journeys | Understand outcomes across the customer experience rather than only individual channel activity |
 
-This builds on Year 1 Channel Strategy work and shifts the focus from strategy definition to practical enablement, testing and delivery.
+Year 2 therefore shifts Channel Strategy from strategy definition toward practical enablement, experimentation and reusable design logic.
 
 ---
 
 ## Problem / opportunity
 
-Customers experience City of Melbourne through multiple disconnected entry points, including website, phone, email, in-person, Snap Send Solve, live chat, bot, mail, CRM and service-specific pathways.
+Customers experience City of Melbourne through a network of entry points and service pathways.
 
-The current challenge is that:
+These include:
 
-| Current issue | Impact |
+- search
+- the website
+- forms
+- phone
+- Contact Us
+- Digital Assistant
+- email
+- CRM-enabled interactions
+- assisted support
+- specialist service pathways
+
+The challenge is not simply that there are many channels.
+
+The challenge is that the logic connecting those channels is not always clear or consistent.
+
+| Current issue | Customer / service impact |
 | --- | --- |
-| Services can be described differently across channels | Customers may not know where to start or which pathway applies |
-| Status updates are often based on internal workflow labels | Customers may not understand what has happened or what happens next |
-| Staff may need to reconstruct customer context | Customers may need to repeat themselves when moving between channels or teams |
-| Channel improvements can happen in isolation | Website, Salesforce, IVR, live chat, bot, knowledge and service teams may optimise separately |
-| Service architecture is not consistently shared | CoM lacks a common way to define, route, support and measure customer interactions |
+| Services may be described differently across channels | Customers may not know where to begin |
+| Customer intent is not always the organising logic | Internal structures can shape the journey |
+| Routing rules vary | Customers can be redirected or enter the wrong pathway |
+| Knowledge can be fragmented | Different channels may provide different answers |
+| Status language can reflect internal workflow | Customers may not understand progress |
+| Context may not move with the customer | Customers and staff repeat work |
+| Related channel initiatives can progress separately | End-to-end improvement can be lost |
 
-The opportunity is to create a common way to define, design and measure a City of Melbourne customer experience across channels.
-
----
-
-## Customer story
-
-As a customer reporting an issue through the website after searching for help, I am guided by what I am trying to do rather than by internal service categories.
-
-I receive clear confirmation that explains:
-
-| Customer need | Example |
-| --- | --- |
-| What CoM has received | “We have received your report about graffiti at this location.” |
-| What will happen next | “Our team will assess this and assign it to the right crew.” |
-| Whether anything is needed from me | “We will contact you if we need more information.” |
-| When I should expect an update | “You can expect an update within [timeframe].” |
-
-As my request progresses, I receive meaningful status updates based on the customer journey, not internal workflow terms.
-
-The customer feels that CoM understands their need, keeps them informed and does not make them start again each time they change channel.
+The opportunity is to create shared service logic that can be tested through real initiatives and reused across services.
 
 ---
 
@@ -88,23 +87,26 @@ The customer feels that CoM understands their need, keeps them informed and does
 
 ### Customer outcomes
 
-| Outcome | Description |
-| --- | --- |
-| Search or browse with clearer intent-led pathways | Customers can find the right service or support pathway more easily |
-| Move between channels with less repetition | Customers do not need to restate information unnecessarily |
-| Receive the right level of support | Support is based on response mode standards and customer need |
-| Experience more consistent service logic | Customers receive a consistent experience regardless of where they start |
-| Understand what is happening | Customers receive journey-based status updates in plain language |
+Customers should increasingly be able to:
 
-### Staff and service team outcomes
+- find the right pathway based on what they are trying to do
+- understand what information or action is required
+- receive the appropriate level of support
+- move between channels with less repetition
+- receive consistent answers
+- understand what has happened and what happens next
 
-| Outcome | Description |
-| --- | --- |
-| Use shared response modes | Teams can guide service behaviour using common response standards |
-| Understand handover context | Staff can see what has happened before the customer reaches them |
-| Measure journeys, not just channel activity | CX performance can be understood across the end-to-end journey |
-| Apply reusable service patterns | Teams can use common patterns rather than creating one-off solutions |
-| Make channel decisions with evidence | Decisions are informed by demand, effort, repeat contact and feasibility |
+### Staff and service outcomes
+
+Teams should increasingly be able to:
+
+- use shared service and routing logic
+- distinguish self-service, assisted and specialist support needs
+- rely on clearer service information
+- preserve relevant context through handovers
+- use reusable interaction patterns
+- make channel decisions using customer evidence
+- understand journey outcomes rather than only channel performance
 
 ---
 
@@ -112,113 +114,196 @@ The customer feels that CoM understands their need, keeps them informed and does
 
 ### Included — Develop
 
-| Included activity | Description |
+| Activity | Description |
 | --- | --- |
-| Define MVP response modes | Establish the minimum set of response modes needed to guide service behaviour |
-| Create service information architecture foundations | Define how services, support reasons and pathways should be structured |
-| Design journey-based customer status patterns | Create status patterns for selected journeys using customer language |
-| Define routing and channel principles | Clarify how customers should be routed across channels |
-| Define minimum connected-context and data capture needs | Identify the minimum data needed to support handover and continuity |
-| Define journey measurement approach | Establish how experience should be measured across journeys |
+| Define Connected Interactions principles | Establish the minimum shared logic needed to connect customer interactions |
+| Define response modes | Clarify broad service responses appropriate to different customer needs |
+| Develop service information architecture foundations | Structure services and pathways around customer intent |
+| Define routing principles | Establish how customers should be guided toward appropriate pathways |
+| Explore journey-status patterns | Improve how progress and next steps are expressed to customers |
+| Define minimum connected context | Identify what needs to be known to support continuity and handover |
+| Develop a journey-measurement approach | Identify evidence needed to assess whether patterns improve the experience |
+| Use practical proof-of-concept work | Learn from real initiatives before attempting broad standardisation |
 
-### Included — Deliver
+### Included — Deliver / test
 
-| Included activity | Description |
+| Activity | Description |
 | --- | --- |
-| Apply and test framework through selected initiatives | Use real initiatives to test the framework |
-| Support customer status update work | Improve customer-facing status communication |
-| Support intelligent front door / routed digital experience | Apply framework to front-door routing and channel logic |
-| Support search-as-channel improvements | Improve how customers find services before entering CoM-owned channels |
-| Support related IVR, live chat, bot, knowledge and digital experience work | Connect related channel improvements through shared architecture |
+| Sustainability proof of concept | Test Intelligent Front Door principles through a practical emerging service context |
+| Parking / infringement problem refinement | Continue validating a concrete customer problem and prepare it for Design |
+| Intelligent Front Door patterns | Develop and test customer-intent, routing, support and knowledge logic |
+| Off-Platform Search assessment | Test what customers find before reaching owned channels once the website baseline is ready |
+| Apply reusable patterns through selected initiatives | Test framework components in real delivery contexts |
+| Connect related digital, knowledge, search and service work | Reduce channel-by-channel drift |
 
 ---
 
 ## Out of scope
 
-| Not included | Description |
-| --- | --- |
-| Enterprise-wide transformation | This project will not redesign every channel or service across the organisation |
-| Major platform rebuilds | This does not include a full website redesign, full Salesforce redesign, core system replacement, enterprise-wide data integration or full AI implementation |
-| Full policy or data remediation | Broad service policy changes or data quality remediation are excluded, except where required for MVP feasibility |
-| Whole-of-Council operating model redesign | This work may inform operating model decisions but will not resolve all structural or governance questions |
-| All service journeys | The work will focus on selected MVP journeys and reusable patterns |
+Channel Strategy Y2 does not include:
+
+- redesigning every City of Melbourne service
+- a full enterprise channel transformation
+- a full website rebuild
+- a full CRM redesign
+- a core-system replacement
+- a whole-of-organisation data-integration program
+- a full AI implementation
+- a broad content-remediation program
+- a whole-of-Council operating-model redesign
+- forcing customers into digital channels
+
+The work may identify future technology, governance or operating-model needs, but those should be recorded as implications rather than silently absorbed into Y2 scope.
 
 ---
 
-## Key workstreams
+## Current workstreams
 
-The following workstreams support Channel Strategy Y2 and should be created as child pages under this parent page.
-
-| Workstream | Purpose | Page link |
+| Workstream | Purpose | Current state |
 | --- | --- | --- |
-| Intelligent Front Door — Discovery | Understand top services, contact reasons, channel flows and preferred support modes | [Add Confluence link] |
-| Knowledge Management System — Discovery | Assess knowledge taxonomy, KMS options and knowledge governance readiness | [Add Confluence link] |
-| Information Architecture — Discovery | Assess service journeys, channel offers and naming alignment across web, IVR and Digital Assistant | [Add Confluence link] |
-| Off-Platform Search — Discovery | Assess Google and AI search outcomes for priority services and identify source-of-truth issues | [Add Confluence link] |
+| Intelligent Front Door | Understand and test customer-intent, entry, routing and support logic | Discover — sustainability proof of concept now provides a practical test |
+| Knowledge Management System | Understand knowledge structure, ownership, reuse and governance | Discover |
+| Information Architecture | Understand service language, customer intent and alignment across channel offers | Discover |
+| Off-Platform Search | Assess what customers find through Google / AI and identify source-of-truth risks | Discover — execution deferred pending website change |
+
+---
+
+## Current practical cases
+
+### Sustainability
+
+**Role:** Intelligent Front Door proof of concept.
+
+The sustainability initiative will be used to test how Channel Strategy principles work in practice.
+
+The aim is not to prove a particular technology.
+
+The aim is to learn how to design around:
+
+- customer intent
+- entry
+- knowledge
+- routing
+- support mode
+- UX
+- reusable service logic
+
+Possible interaction mechanisms can be explored with UX / Design and Digital contributors.
+
+### Parking / infringement review
+
+**Role:** problem-framing and design case.
+
+The existing problem statement will continue to be refined and validated.
+
+Current areas of interest include:
+
+- customer understanding of review criteria
+- routing and eligibility
+- clarity before a customer begins a review
+- how policy / operational criteria can become clearer customer guidance
+
+The sustainability proof of concept should inform this work where relevant.
+
+### Off-Platform Search
+
+**Role:** prepared discovery activity temporarily deferred.
+
+The test preparation is ready.
+
+Execution will wait for the planned website change so that results are captured against a more meaningful baseline.
+
+Current expectation: **resume around Sprint 4, subject to website readiness.**
 
 ---
 
 ## Delivery approach
 
-Channel Strategy Y2 should be delivered as a practical enablement program, not as a standalone strategy document.
+Channel Strategy Y2 should be run as a practical enablement program.
 
-The work should create reusable patterns, standards and decision tools that can be applied through active initiatives.
+The team should develop reusable patterns by moving between:
+
+**evidence → framing → practical test → learning → reusable pattern**
+
+rather than attempting to fully define the framework before testing it.
+
+### Delivery principles
 
 | Principle | Meaning |
 | --- | --- |
-| Start with high-demand journeys | Focus on services where customers experience the most effort or avoidable contact |
-| Design for connected interactions | Improve how channels work together, not just how each channel performs individually |
-| Use customer intent as the organising logic | Structure pathways around what customers are trying to do |
-| Make service logic reusable | Create patterns that can be applied across multiple services |
-| Balance digital containment with support access | Improve self-service while maintaining access for customers who need help |
-| Measure journeys, not only channels | Track whether the customer need was resolved across the end-to-end experience |
-| Build for governance and compliance early | Consider privacy, records, security, data quality and accessibility from the start |
+| Decision first | Use discovery and design to support clear choices |
+| Test through real work | Use active service contexts to make the framework tangible |
+| Start with customer intent | Organise around what customers are trying to achieve |
+| Connect interactions | Design the relationship between channels, not only the channels themselves |
+| Use the simplest useful test | Do not build more than is needed to learn |
+| Keep assisted support visible | Self-service should not remove appropriate human support |
+| Reuse learning | Capture patterns that can apply beyond the original service |
+| Evidence with caveats | Record what is known, assumed and still uncertain |
+| Human in the loop | Automation can support interactions; accountable people remain responsible for service decisions |
 
 ---
 
-## Key dates and value drops
+## Current sequencing
 
-| Timing | Value drop | Description |
+### Immediate sequence
+
+1. Use sustainability as the immediate Intelligent Front Door proof of concept.
+2. Bring additional UX / design capability into that work.
+3. Continue refining and validating the parking / infringement review problem statement.
+4. Capture reusable learning from both activities.
+5. Keep Off-Platform Search ready but paused while the website baseline changes.
+6. Resume Off-Platform Search when the changed website environment is ready, currently expected around Sprint 4.
+
+The aim is for these activities to inform each other rather than operate as isolated workstreams.
+
+---
+
+## Value drops
+
+| Timing | Value drop | What should be available |
 | --- | --- | --- |
-| Q1 | Scoping, ELT narrative and workplan confirmation | Confirm project scope, governance, narrative and delivery plan |
-| Q2 | MVP Connected Interactions Framework and service information architecture drafted | Define the core framework and supporting service architecture |
-| Q3 | Delivery-ready use cases confirmed | Confirm selected journeys and use cases ready for testing or implementation |
-| Q4 | Scale pathway and reusable patterns confirmed | Confirm what can scale, what needs further testing and what should be embedded |
+| Q1 | Confirmed Y2 direction and practical proof-of-concept learning | Clear project narrative, current priorities, proof-of-concept progress and visible next decisions |
+| Q2 | MVP Connected Interactions patterns and service information architecture | Draft response / routing logic, IA foundations and learning from practical use cases |
+| Q3 | Delivery-ready use cases | Selected patterns and services ready for more formal testing or implementation |
+| Q4 | Scale pathway | Recommendation on what should scale, continue, stop or require more evidence |
+
+Value drops should be used to socialise meaningful learning and decisions rather than simply report activity.
 
 ---
 
 ## Measurement
 
-| Measure | What we are looking for |
-| --- | --- |
-| Customer effort | How easy it is for customers to understand, act and complete the journey |
-| Repeat contact / channel switching | Whether customers need to contact CoM again or move channels because the first pathway did not resolve their need |
-| Digital and data effectiveness | Whether customers can complete the journey digitally where appropriate, and whether staff have enough data to support handover and continuity |
-| Status update usefulness | Whether customers understand what has happened, what happens next and when to expect an update |
-| Staff handover quality | Whether staff receive enough context to continue the interaction without unnecessary rework |
-| Framework adoption | Whether selected initiatives are using the shared response modes, routing principles and information architecture |
+Measurement should remain proportionate to the maturity of the work.
 
-Measurement should be reviewed:
-
-| Point | Purpose |
+| Measure area | What we want to understand |
 | --- | --- |
-| Baseline | Understand current state and starting pain points |
-| After framework draft | Test whether the framework is practical and understandable |
-| After each delivery test | Understand what worked, what needs adjustment and what can scale |
-| Q4 evaluation | Confirm scale pathway and FY26/27 recommendations |
+| Customer clarity | Can customers understand where to start and what to do? |
+| Customer effort | Is the journey easier to navigate? |
+| Routing effectiveness | Are customers reaching the appropriate pathway? |
+| Support-mode fit | Are customers able to self-serve where appropriate and access help when needed? |
+| Repetition / channel switching | Are customers being forced to restart or move channels unnecessarily? |
+| Knowledge consistency | Are answers aligned across relevant interaction points? |
+| Staff handover | Is sufficient context available when support changes hands? |
+| Reusability | Can the learning be applied beyond the original proof of concept? |
+
+For early proof-of-concept work, qualitative evidence and service logic may be as important as quantitative baseline measures.
+
+Measurement should become more formal as the work progresses toward repeated testing and scale.
 
 ---
 
 ## Strategic alignment
 
-| Strategic area | Contribution |
+| Area | Contribution |
 | --- | --- |
-| Our Promise | Creates a clearer and more consistent customer experience across channels |
-| Vision and Strategy | Turns channel strategy into practical patterns, standards and decision tools |
-| Experience Delivery | Supports better routing, status updates, handover and service continuity |
-| Data and Technology | Defines minimum information and context needs across systems |
-| Knowledge Management | Helps ensure customers and staff receive consistent answers |
-| Measurement and Reporting | Supports journey-based CX measurement |
+| Customer Experience | Creates clearer, more coherent interactions across channels |
+| Vision and Strategy | Converts Channel Strategy into practical service-design capability |
+| Digital Experience | Provides customer-intent and routing logic for digital pathways |
+| Contact Centre / Assisted Service | Clarifies when and how customers require human support |
+| Information Architecture | Creates reusable service and intent structures |
+| Knowledge Management | Supports consistent information across interaction points |
+| CRM / customer context | Identifies future handover and status information needs |
+| Measurement | Moves toward understanding customer journeys rather than isolated channel activity |
 
 ---
 
@@ -227,60 +312,62 @@ Measurement should be reviewed:
 | Group | Role |
 | --- | --- |
 | Project lead | Jose Andrade |
-| CX | Lead customer experience framing, journey logic and service design |
-| Digital CX / MVGA | Align website, digital pathways and digital experience improvements |
-| Salesforce / CRM | Align case, status, data and handover requirements |
-| Knowledge | Align knowledge taxonomy, source-of-truth and governance |
-| Data Governance / Data Quality | Support minimum data capture, definitions and quality controls |
-| Privacy, Records and Information Security | Advise on compliance, consent, information handling and auditability |
-| VOCA / Analytics | Support measurement, reporting and journey performance views |
-| Technology / Integration | Advise on platform, integration and feasibility constraints |
-| Communications | Support customer-facing language, proactive communication and status patterns |
-| Contact Centre / Customer Support | Provide assisted channel insight, failure demand evidence and handover requirements |
-| Selected MVP service owners | Test the framework through real service journeys |
-| ELT / senior leadership | Provide direction, endorsement and prioritisation support |
+| Channel Strategy working group | Coordinate framing, learning, design decisions and sequencing |
+| UX / Design | Support interaction design and connection to wider design patterns |
+| Digital | Support digital pathways, website connection and feasibility |
+| Contact Centre | Provide assisted-channel and failure-demand insight |
+| Knowledge | Support consistent answers and source-of-truth logic |
+| Information Architecture | Structure customer intent, service offers and pathways |
+| CRM | Support future status, context and handover considerations |
+| Service owners | Validate service rules and test practical patterns |
+| Analytics / evidence partners | Support proportionate baselines and evaluation |
+| Communications | Support customer-facing language and wider content alignment |
+| Leadership | Provide direction, visibility and future scale support |
 
 ---
 
-## Team and skills required
+## Capabilities required
 
 | Capability | Why it is needed |
 | --- | --- |
-| CX and service design | To design service logic, customer journeys and experience standards |
-| Business design / service strategy | To connect customer value, operational feasibility and organisational goals |
-| Journey design and stakeholder facilitation | To align cross-functional teams and make decisions visible |
-| Customer support and operations | To understand real support needs, handovers and channel constraints |
-| Digital / MVGA | To align website and digital pathway improvements |
-| Salesforce / CRM | To understand case, status, data and handover requirements |
-| Knowledge management | To align answers, content and source-of-truth governance |
-| Privacy, records and security | To manage compliance, consent, information handling and auditability |
-| Data governance and measurement | To define minimum data capture and journey performance measures |
+| Service design | Define customer problems, journeys and service logic |
+| UX / interaction design | Turn service logic into testable customer interactions |
+| Information architecture | Organise customer intent and service pathways |
+| Customer-support expertise | Ensure assisted needs and routing realities are represented |
+| Knowledge design | Support consistent answers |
+| Digital feasibility | Ensure tests can be implemented proportionately |
+| Data / measurement | Provide evidence and evaluate learning |
+| Stakeholder facilitation | Align contributors around decisions rather than artefacts |
 
 ---
 
 ## Constraints and dependencies
 
-| Dependency | Description |
+| Dependency | Implication |
 | --- | --- |
-| Leadership and partner commitment | ELT support is required to shift towards connected customer interactions |
-| Service owner participation | Selected service owners must be willing to use shared standards |
-| MVP feasibility | Existing platforms can support limited testing of journey-based statuses, case reopening, customer-confirmed closure and bottom-up information architecture through selected journeys |
-| Risk-aware foundations | Privacy, records, data governance and fallback protocols need to be built in early |
-| Cross-channel coordination | Digital, Salesforce, contact centre, knowledge and service teams need to work from the same service logic |
-| Clear prioritisation | The work needs agreed MVP journeys and a clear stop/start/continue view |
+| Service-owner participation | Practical tests require validation against real service rules |
+| UX / Digital participation | Proof-of-concept interaction needs to align with wider digital patterns |
+| Information Architecture progress | Routing and knowledge logic need an organising structure |
+| Knowledge clarity | Front-door experiences depend on accurate information |
+| Website change | Off-Platform Search testing should wait for the changed baseline |
+| Available evidence | Some decisions may need to use mixed quantitative and qualitative evidence |
+| Leadership visibility | Future reuse depends on related initiatives understanding the direction |
+| Clear prioritisation | The team needs to protect proof-of-concept work from uncontrolled scope expansion |
 
 ---
 
 ## Key risks and unknowns
 
-| Risk / unknown | Impact | Mitigation |
+| Risk / unknown | Impact | Response |
 | --- | --- | --- |
-| Strategic framing risk | The work may be interpreted as only a digital, Salesforce or channel project | Frame it consistently as a Connected Interactions Framework supported by service information architecture |
-| Scope and delivery risk | The work may become too broad or be pulled into unrelated initiatives | Limit Develop to selected MVP journeys and provide lightweight principles early |
-| Channel-first optimisation | Individual channels may improve separately without solving the end-to-end journey | Use shared response modes and journey measures |
-| Data quality limitations | Incomplete or inconsistent data may limit measurement and handover design | Define minimum viable data requirements and confidence levels |
-| Knowledge fragmentation | Different channels may continue using different answers | Connect work to KMS discovery and knowledge governance |
-| Low adoption by service owners | Framework may not be used in real delivery | Test through selected initiatives and make tools easy to apply |
+| The work is interpreted as a technology program | Service and customer problems may be secondary | Continue to lead with Connected Interactions and service logic |
+| Proof-of-concept work becomes one-off prototyping | Learning may not become reusable capability | Explicitly record patterns and design implications |
+| Too many use cases are pursued simultaneously | Discovery loses momentum | Focus on a small number of practical cases |
+| Individual channels continue to optimise separately | End-to-end customer outcomes remain fragmented | Use common intent, routing and response logic |
+| Data is incomplete | Measurement may be uncertain | Record confidence and use proportionate evidence |
+| Knowledge remains fragmented | Customer answers remain inconsistent | Connect work to KMS discovery |
+| Assisted support is overlooked | Digital improvements may exclude customer needs | Include response-mode and escalation logic |
+| Leadership is unaware of the connected direction | Related work may not align | Use meaningful progress playbacks |
 
 ---
 
@@ -288,37 +375,44 @@ Measurement should be reviewed:
 
 | Question | Owner | Status |
 | --- | --- | --- |
-| Which services will be selected as MVP journeys? | TBD | Open |
-| What is the minimum viable set of response modes? | TBD | Open |
-| What service information architecture is needed to support connected interactions? | TBD | Open |
-| What data is required to support customer context and handover? | TBD | Open |
-| Which knowledge source should be treated as the source of truth? | TBD | Open |
-| How will journey measurement be governed? | TBD | Open |
-| What level of ELT endorsement is required before delivery testing? | TBD | Open |
-| Which decisions need to be made by CX, and which need broader governance? | TBD | Open |
+| What exactly should the sustainability proof of concept demonstrate? | Jose Andrade / working group | Open |
+| What is the simplest useful sustainability interaction to test? | UX / Design / working group | Open |
+| Which sustainability customer intents should be prioritised? | Working group / service input | Open |
+| What is the validated parking / infringement review problem statement? | Jose Andrade | In progress |
+| Which additional services should become MVP journeys? | Working group | Open |
+| What is the minimum response-mode model? | Working group | Open |
+| What service information architecture is required? | IA workstream | Open |
+| What evidence is sufficient to assess early proof-of-concept value? | Working group | Open |
+| When will the website baseline be stable enough to restart Off-Platform Search? | Relevant digital owner | Waiting |
+| What recurring value-drop / playback rhythm will best socialise the work? | Jose Andrade | Open |
 
 ---
 
-## Related artefacts
+## Current next steps
 
-| Artefact | Link |
-| --- | --- |
-| Miro board | [Add Miro link] |
-| Intelligent Front Door — Discovery | [Add Confluence link] |
-| Knowledge Management System — Discovery | [Add Confluence link] |
-| Information Architecture — Discovery | [Add Confluence link] |
-| Off-Platform Search — Discovery | [Add Confluence link] |
-| Decision Log | [Add Confluence link] |
-| Stakeholder RAID Log | [Add Confluence link] |
-| Risk Register | [Add Confluence link] |
-| Ways of Working | [Add Confluence link] |
+| Priority | Next step | Status |
+| --- | --- | --- |
+| 1 | Define sustainability proof-of-concept learning questions | Next |
+| 2 | Bring UX / design input into the sustainability work | Next |
+| 3 | Progress the sustainability proof of concept | Planned / in progress |
+| 4 | Refine the parking / infringement review problem statement toward Design | In progress |
+| 5 | Capture reusable Intelligent Front Door learning | Planned |
+| 6 | Keep Off-Platform Search test preparation ready | Ready |
+| 7 | Reconfirm website readiness and restart Off-Platform Search | Waiting |
+| 8 | Establish a lightweight recurring progress / value-drop playback rhythm | Planned |
 
 ---
 
 ## Summary narrative
 
-Channel Strategy Y2 is the practical delivery layer for connected customer interactions at City of Melbourne.
+Channel Strategy Y2 is moving from broad discovery toward practical testing.
 
-It will help CoM move beyond channel-by-channel improvement by creating shared service logic, response modes, information architecture and measurement patterns that can be tested through selected journeys.
+The current approach is to use real service contexts to develop the Connected Interactions Framework rather than fully designing the framework in isolation.
 
-The outcome is not just a better website, IVR, Digital Assistant or CRM experience. The outcome is a more coherent customer experience where people can find the right pathway, receive the right level of support, move between channels with less repetition and receive updates they can understand.
+Sustainability provides the immediate Intelligent Front Door proof-of-concept opportunity.
+
+Parking / infringement review provides a complementary problem-framing and future design case.
+
+Off-Platform Search is prepared but deliberately deferred until the website environment provides a more meaningful baseline.
+
+Together, these activities should help the project learn how customer intent, information, routing, support modes, interaction design and channel handover can work as one connected service experience.
